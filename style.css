@@ -1,0 +1,142 @@
+body {
+		background-color: black;
+		font-size: 0px;
+		margin-top: 0px;
+}	
+	div#logo {
+		display: block;
+		background-image: url('assets/pacman-logo.gif');
+		background-repeat: no-repeat;
+		height: 200px;
+		margin-left: 185px;
+	}
+	div#container {
+		margin-left: 242px;
+	}
+	div#world {
+		display: inline-block;
+	}
+	div#messageContainer {
+		display: inline-block;
+		vertical-align: top;
+	}
+		h1#message {
+			color: white;
+			font-size: 80px;
+			margin-left: 40px;	
+			margin-bottom: 30px;
+		}
+		p#instructions {
+			margin-left: 50px;
+			margin-top: 50px;
+			font-size: 20px;
+		}
+		button#btn {
+			font-size: 20px;
+			margin-top: 0px;
+			margin-left: 150px;
+			width: 300px;
+			height: 100px;
+			display: inline-block;
+			vertical-align: top;
+			border: none;
+			outline: none;
+			cursor: pointer;
+			border-radius: 5px;
+			background-color: #33adff;
+			color: white;
+		}
+	div.row div {
+		width: 20px;
+		height: 20px;
+		display: inline-block;
+	}
+	div.brick { /*2*/
+		background-color: blue;
+	}
+	div.coin { /*1*/
+		background-image: url('assets/coin.gif');
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+	div.pinkDot {
+		background-image: url('assets/pinkdot.png');
+		background-size: 100%;		
+	}
+	div.empty { /*0*/
+
+	}
+	div.cherry { /*3*/
+		background-image: url('assets/cherry.png');
+		background-size: contain;
+	}
+div#pacman {
+	background-image: url('assets/face-right.gif');
+	background-size: 100%;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+}	
+div#blinky {
+	background-image: url('assets/blinky-left.png');
+	background-size: contain;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+}
+div#pinky {
+	background-image: url('assets/pinky-right.png');
+	background-size: contain;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+}
+div#inky {
+	background-image: url('assets/inky-down.png');
+	background-size: contain;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+}
+div#clyde {
+	background-image: url('assets/clyde-up.png');
+	background-size: contain;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+}
+	p {
+		display: inline-block;	
+		color: white;	
+		margin-top: 12px;
+		margin-left: 10px;
+		font-size: 16px;
+		margin-right: 0px;
+	}
+	#healthContainer {
+		margin-top: 2px;
+		width: 120px;
+		outline: 2px solid white;	
+	}
+		#healthContainer p {
+			margin-bottom: 15px;
+			margin-right: 5px;	
+		}
+		div.health { /*4*/
+			background-image: url('assets/life.png');
+			background-size: contain;
+			width: 20px;
+			height: 20px;
+			display: inline-block;
+		}
+div#scoreBox {
+	outline: 2px solid white;
+	width: 120px;
+	margin-top: 15px;
+}		
+	div#score {
+		color: white; 
+		font-size: 16px;
+		margin-left: 10px;
+		display: inline-block;
+	}

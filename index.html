@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+	<meta charset='utf-8'>
+	<meta name='description' content='Pac-Man is an arcade game developed by Namco and first released in Japan in May 1980. It was created by Japanese video game designer Toru Iwatani. It was licensed for distribution in the United States by Midway and released in October 1980'>
+	<title>Pacman</title>
+	<script src='https://code.jquery.com/jquery-3.0.0.min.js'></script>
+	<script src='script.js'></script>
+	<link rel='stylesheet' type='text/css' href='style.css'>
+</head>
+<body>
+	<div id='logo'></div>
+	<div id='container'>
+		<div id='world'></div>
+		<div id='messageContainer'> 
+			<h1 id='message'>GAME OVER</h1>
+			<p id='instructions'></p>
+			<button id='btn'>Replay</button>
+		</div>
+		<div id='pacman'></div>
+		<div id='blinky'></div>
+		<div id='pinky'></div>
+		<div id='inky'></div>
+		<div id='clyde'></div>
+		<div id='scoreBox'> 
+			<p>Score: </p>
+			<div id='score' currentScore='0'></div>
+		</div>
+		<div id='healthContainer'>
+			<p>Lives: </p>
+			<div class='health'></div>
+			<div class='health'></div>
+		</div>
+	</div>
+</body>
+</html>
